@@ -1,5 +1,3 @@
-#BBM 103 - Assignment 3 - Buğra Ercan - 21787773
-
 import sys, time
 
 if len(sys.argv) != 3:
@@ -62,4 +60,4 @@ for key in jumblewords.keys():
             print("You have", int(turn_time - elapsed_time), "seconds")
     calcscore(guessed_words)
     print("Score for {} is".format(list(jumblewords.keys())[counter]), calcscore(guessed_words), "and correct guessed words are:",
-          "-".join(guessed_words).replace("I", "ı").replace("İ", "i").lower()) #muazzam formatting to match pdf output
+          "-".join(guessed_words).replace("I", "ı").replace("İ", "i").lower())
